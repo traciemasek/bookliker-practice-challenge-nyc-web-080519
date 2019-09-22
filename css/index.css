@@ -2,3 +2,11 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 8fr
 }
+
+.book {
+  display: none;
+}
+
+.active {
+  display: grid;
+}
