@@ -65,7 +65,6 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       buttonText = "Like this book"
     }
-    
 
     showPanel.insertAdjacentHTML('beforeend', `
       <div class="book" data-id=${id}>
