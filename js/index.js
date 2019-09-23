@@ -70,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (e.target.tagName === "BUTTON") {
       const id = e.target.dataset.id
 
+      //make a GET request to make sure we have the most recent user info before patching
       fetch(`http://localhost:3000/books/${id}`)
         .then(resp => resp.json())
         .then(book => {
